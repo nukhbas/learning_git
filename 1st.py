@@ -1,8 +1,6 @@
 def max(n1, n2):
-        if n1>n2:
-            return n1
-        elif n2 >n1:
-            return n2
+        returrn n1 if n1 > n2 else n2
+ 
 print(max(3, 6))    
 
 
